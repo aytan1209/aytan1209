@@ -1,8 +1,3 @@
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
-
 ## General info
 This project is about IKEA Products. In this project you need to develop a UI (console based) which will help the user to work on the dataset. Explore the dataset (especially the datatypes of columns). Yes/No and True/False values must be stored as Boolean whereas id, item id, price and the dimensions seem to be numbers. There should be menu and it should be interactive, as the user might want to perform some sequence of requests. For example, user might want to sort the entities based on the date (request 1) and pick top 20 entities to list (request 2). To increase the reusability, after all the requests or sub-requests, return a collection of results so that you can print them, or use it in some subsequent requests. The main functionalities the program needs to provide are the following:
 1. List all the entities 
@@ -44,10 +39,5 @@ After search and filter requests we always print the results on the console. Giv
 .csv file AFTER LISTING IT
 		
 ## Setup
-To run this project, install IKEA Products from this link: https://www.kaggle.com/datasets/thedevastator/ikea-product . 
-
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
+Install IKEA Products from this link: https://www.kaggle.com/datasets/thedevastator/ikea-product . 
+To run this code the csv file and the java file containing the end user’s data must be in the same directory. When user start the program, options will appear on the screen. They can make the appropriate choice there and continue with the code. The last part is to export to a file, after searching and filtering, there is an option that user want to export to a file, from there user choose one of the “yes” or “no” options, that's all. 
